@@ -1,4 +1,8 @@
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import {
+	FaFacebookF,
+	FaInstagram,
+	FaTwitter,
+} from "react-icons/fa";
 const Footer = () => {
 	return (
 		<footer className="bg-gray-900 ">
@@ -11,6 +15,16 @@ const Footer = () => {
 				<span className="mx-4 md:mx-8">|</span>
 
 				<ul className="flex gap-4 items-center">
+					<li>
+						<a
+							href="https://es-la.facebook.com/profile.php?id=100054525247624"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<FaFacebookF className="h-5 w-5 duration-500 hover:scale-125 hover:text-cyan-500" />
+						</a>
+					</li>
+
 					<li>
 						<a
 							href="https://twitter.com/MetalmaniaWorks"
