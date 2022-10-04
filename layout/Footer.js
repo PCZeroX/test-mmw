@@ -36,11 +36,11 @@ const Footer = () => {
 
 				<a
 					className="text-center text-xs md:text-base"
-					href="https://pczerox.com/"
+					href="https://github.com/PCZeroX"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Designed by Ronald Cana
+					Designed by pczerox
 				</a>
 			</div>
 		</footer>
